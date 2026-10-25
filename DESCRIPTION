@@ -1,0 +1,16 @@
+Package: finAnalyze
+Type: Package
+Title: Financial Statement and Investment Analysis Toolkit
+Version: 0.0.0.9000
+Authors@R: c(
+    person(
+      "Dylan", "Caudill",
+      email = "dc33@usf.edu",
+      role = c("aut", "cre")
+    )
+  )
+Description: Provides tools to analyze finacial statements of companies and 
+            provide key ratios in the analysis process. 
+License:  CC0
+Encoding: UTF-8
+LazyData: true
