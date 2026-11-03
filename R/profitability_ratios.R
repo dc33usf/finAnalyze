@@ -1,16 +1,36 @@
 #' Calculate Profitability Ratios
 #'
 #' Calculates four financial ratios used to evaluate a company's
-#' financial performance and it's ability to generate profits.
+#' financial performance and its ability to generate profits.
+#'
+#' @details
+#' The gross profit margin measures the percentage of revenue remaining
+#' after subtracting the cost of goods sold. It is calculated by
+#' subtracting cost of goods sold from revenue and dividing by revenue.
+#'
+#' The operating profit margin measures the percentage of revenue
+#' remaining after accounting for operating expenses(selling and G&A expenses).
+#' It is calculated
+#' by dividing operating income by revenue.
+#'
+#' The net profit margin measures the percentage of revenue remaining
+#' after accounting for all expenses and taxes. It is calculated by
+#' dividing net income by revenue.
+#'
+#' Return on assets (ROA) measures how efficiently a company uses its
+#' assets to generate net income. It is calculated by dividing net
+#' income by average total assets. Average total assets is calculated
+#' by adding beginning and ending total assets and dividing by two.
 #'
 #' @param revenue Total revenue earned by the company.
 #' @param cogs Cost of goods sold.
 #' @param operating_income Income earned from business operations.
-#' @param net_income Net income after all expenses from continued and discontinued operations and taxes.
+#' @param net_income Net income after all expenses from continuing
+#' and discontinued operations and taxes.
 #' @param beginning_assets Total assets at the beginning of the period.
 #' @param ending_assets Total assets at the end of the period.
 #'
-#' @return A vector containing gross profit margin,
+#' @return A named numeric vector containing gross profit margin,
 #' operating profit margin, net profit margin, and return on assets.
 #'
 #' @examples
@@ -28,6 +48,13 @@
 profitability_ratios <- function(revenue, cogs, operating_income,
                                  net_income, beginning_assets,
                                  ending_assets) {
+  # Stop the function if any of the six inputs contains more or less than one value
+  if (any(lengths(list(revenue, cogs, operating_income,
+                       net_income, beginning_assets,
+                       ending_assets)) != 1)) {
+    stop("Each input must be a single numeric value.")
+  }
+
   # Check that all inputs are numeric and finite
   inputs <- c(revenue, cogs, operating_income,
               net_income, beginning_assets, ending_assets)
@@ -36,16 +63,8 @@ profitability_ratios <- function(revenue, cogs, operating_income,
     stop("All inputs must be finite numeric values.")
   }
 
-  # Stop the function if any of the six inputs contains more or less than one value
-  if (length(inputs) != 6 ||
-      any(lengths(list(revenue, cogs, operating_income,
-                       net_income, beginning_assets,
-                       ending_assets)) != 1)) {
-    stop("Each input must be a single numeric value.")
-  }
-
   # Stop the function if revenue or average total assets is zero since ratios
-  #require these for division
+  # require these for division
   if (revenue == 0) {
     stop("Revenue cannot be zero.")
   }

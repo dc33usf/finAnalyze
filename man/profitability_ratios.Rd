@@ -20,19 +20,39 @@ profitability_ratios(
 
 \item{operating_income}{Income earned from business operations.}
 
-\item{net_income}{Net income after all expenses from continued and discontinued operations and taxes.}
+\item{net_income}{Net income after all expenses from continuing
+and discontinued operations and taxes.}
 
 \item{beginning_assets}{Total assets at the beginning of the period.}
 
 \item{ending_assets}{Total assets at the end of the period.}
 }
 \value{
-A vector containing gross profit margin,
+A named numeric vector containing gross profit margin,
 operating profit margin, net profit margin, and return on assets.
 }
 \description{
 Calculates four financial ratios used to evaluate a company's
-financial performance and it's ability to generate profits.
+financial performance and its ability to generate profits.
+}
+\details{
+The gross profit margin measures the percentage of revenue remaining
+after subtracting the cost of goods sold. It is calculated by
+subtracting cost of goods sold from revenue and dividing by revenue.
+
+The operating profit margin measures the percentage of revenue
+remaining after accounting for operating expenses(selling and G&A expenses).
+It is calculated
+by dividing operating income by revenue.
+
+The net profit margin measures the percentage of revenue remaining
+after accounting for all expenses and taxes. It is calculated by
+dividing net income by revenue.
+
+Return on assets (ROA) measures how efficiently a company uses its
+assets to generate net income. It is calculated by dividing net
+income by average total assets. Average total assets is calculated
+by adding beginning and ending total assets and dividing by two.
 }
 \examples{
 profitability_ratios(
