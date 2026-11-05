@@ -2,6 +2,7 @@
 
 S3method(print,financial_report)
 export(financial_summary)
+export(investment_growth)
 export(investment_return)
 export(liquidity_ratios)
 export(profitability_ratios)
