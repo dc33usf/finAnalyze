@@ -16,7 +16,7 @@
 #' Annualized Return: Measures the equivalent annual compounded
 #' return based on the investment's holding period in years.
 #'
-#' @param beginning_value The initial value of the investment when purchases.
+#' @param beginning_value The initial value of the investment
 #' @param ending_value The value of the investment at the end of the holding period (end of year).
 #' @param income investment income(i.e dividends) received during the holding period.
 #' @param years The length of the investment holding period in years. Note: If held

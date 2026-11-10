@@ -7,7 +7,7 @@
 investment_return(beginning_value, ending_value, income, years)
 }
 \arguments{
-\item{beginning_value}{The initial value of the investment when purchases.}
+\item{beginning_value}{The initial value of the investment}
 
 \item{ending_value}{The value of the investment at the end of the holding period (end of year).}
 
