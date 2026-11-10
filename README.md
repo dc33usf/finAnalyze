@@ -19,11 +19,11 @@ compute these essential financial functions in R.
 
 'finAnalyze' can be installed directly from GitHub using the code below:
 ``` r
-# Install devtools if it is not already installed
-install.packages("devtools")
+# Install pak if it is not already installed
+install.packages("pak")
 
 # Install finAnalyze from GitHub
-devtools::install_github("dc33usf/finAnalyze")
+pak::pak("dc33usf/finAnalyze")
 
 # Load the package
 library(finAnalyze)
