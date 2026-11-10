@@ -14,7 +14,7 @@ investment_return(beginning_value, ending_value, income, years)
 \item{income}{investment income(i.e dividends) received during the holding period.}
 
 \item{years}{The length of the investment holding period in years. Note: If held
-for less than a year, input as a percent of 1 year,i.e half a year  = .5 ) .}
+for less than a year, input as a percent of 1 year,(i.e half a year  = 0.5 ).}
 }
 \value{
 A named numeric vector containing the holding period return

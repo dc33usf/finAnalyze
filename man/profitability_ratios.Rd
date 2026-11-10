@@ -36,20 +36,19 @@ Calculates four financial ratios used to evaluate a company's
 financial performance and its ability to generate profits.
 }
 \details{
-The gross profit margin measures the percentage of revenue remaining
+Gross Profit Margin: Measures the percentage of revenue remaining
 after subtracting the cost of goods sold. It is calculated by
 subtracting cost of goods sold from revenue and dividing by revenue.
 
-The operating profit margin measures the percentage of revenue
+Operating Profit Margin: Measures the percentage of revenue
 remaining after accounting for operating expenses(selling and G&A expenses).
-It is calculated
-by dividing operating income by revenue.
+It is calculated by dividing operating income by revenue.
 
-The net profit margin measures the percentage of revenue remaining
+Net Profit Margin: Measures the percentage of revenue remaining
 after accounting for all expenses and taxes. It is calculated by
 dividing net income by revenue.
 
-Return on assets (ROA) measures how efficiently a company uses its
+Return On Assets (ROA): Measures how efficiently a company uses its
 assets to generate net income. It is calculated by dividing net
 income by average total assets. Average total assets is calculated
 by adding beginning and ending total assets and dividing by two.

@@ -25,7 +25,7 @@ financial_report created using financial_summary().
 
 The report displays profitability and liquidity ratios in separate
 sections to provide an overview of a company's financial performance
-and ability to meet short-term financial obligation with short term,'
+and ability to meet short-term financial obligation with short-term,
 liquid assets.
 }
 \examples{

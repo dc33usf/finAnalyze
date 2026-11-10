@@ -16,8 +16,8 @@
 #'
 #' The annual rate of return should be entered as a decimal, and the
 #' holding period can include fractional years ( i.e if investment is for 2 years
-#' but interest compounds semi annually years multiply by 2 and
-#' the annual return rate will be divided by 2.
+#' but interest compounds semi annually, multiply years by 2 and
+#' divide annual return rate by 2.
 #'
 #' @param beginning_value The initial value of the investment.
 #' @param annual_return The expected annual rate of return expressed

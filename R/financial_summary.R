@@ -7,11 +7,11 @@
 #' @details
 #' This function combines the results from profitability_ratios() and
 #' liquidity_ratios() to provide an overview of a company's financial
-#' performance and short-term financial position in a organized table.
+#' performance and short-term financial position in an organized table.
 #'
-#' Profitability ratios measure a company's financial performance through it's
+#' Profitability ratios measure a company's financial performance through its
 #' ability to generate net income and revenue. Liquidity ratios measure a company's
-#' ability to meet its short-term financial obligations using short term 'liquid
+#' ability to meet its short-term financial obligations using short-term liquid
 #' assets.
 #'
 #' @param profitability A named numeric vector containing the profitability

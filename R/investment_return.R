@@ -20,7 +20,7 @@
 #' @param ending_value The value of the investment at the end of the holding period (end of year).
 #' @param income investment income(i.e dividends) received during the holding period.
 #' @param years The length of the investment holding period in years. Note: If held
-#' for less than a year, input as a percent of 1 year,i.e half a year  = .5 ) .
+#' for less than a year, input as a percent of 1 year,(i.e half a year  = 0.5 ).
 #'
 #' @return A named numeric vector containing the holding period return
 #' and annualized return.

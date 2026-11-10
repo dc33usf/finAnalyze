@@ -9,7 +9,7 @@ Authors@R: c(
       role = c("aut", "cre")
     )
   )
-Description: Provides tools to analyze finacial statements of companies and 
+Description: Provides tools to analyze financial statements of companies and 
             provide key ratios in the analysis process. 
 Imports:
     ggplot2, 

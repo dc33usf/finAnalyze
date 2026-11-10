@@ -4,17 +4,17 @@
 #' ability to meet its short-term financial obligations with its current assets.
 #'
 #' @details
-#' The current ratio measures a company's ability to cover its
+#' Current Ratio: Measures a company's ability to cover its
 #' current liabilities using its current assets. It is calculated
 #' by dividing current assets by current liabilities.
 #'
-#' The quick ratio measures a company's ability to cover its
+#' Quick Ratio: Measures a company's ability to cover its
 #' current liabilities using its most liquid assets, which excludes
 #' inventory and prepaids. It is calculated
 #' by dividing cash, marketable securities, and accounts receivable
 #' by current liabilities.
 #'
-#' Working capital measures the difference between a company's
+#' Working Capital: Measures the difference between a company's
 #' current assets and current liabilities. It is calculated by
 #' subtracting current liabilities from current assets.
 #'
