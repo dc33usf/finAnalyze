@@ -1,5 +1,6 @@
 #' Calculate Liquidity Ratios
 #'
+#' @description
 #' Calculates three financial metrics used to evaluate a company's
 #' ability to meet its short-term financial obligations with its current assets.
 #'

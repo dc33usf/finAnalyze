@@ -1,5 +1,6 @@
 #' Calculate Profitability Ratios
 #'
+#'@description
 #' Calculates four financial ratios used to evaluate a company's
 #' financial performance and its ability to generate profits.
 #'

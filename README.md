@@ -211,7 +211,7 @@ value in each financial measure, and ultimately the design and format of the
 package itself.
 
 For more detailed information on how I used AI in this project
-please reference [AI Usage Disclosure](AI_USE.md).
+please reference AI_USE.md
 
 
 
